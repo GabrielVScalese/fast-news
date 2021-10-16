@@ -6,22 +6,23 @@
   margin-bottom: 35px;
   flex-direction: row;
   display: flex;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 20px 20px 20px 20px;
 }
 
 .post-container img {
-  height: 150px;
-  width: 230px;
+  max-height: 180px;
+  max-width: 270px;
   border-radius: 3px;
+  margin-right: 20px;
 }
 
 .content-container {
+  width: 100%;
   height: auto;
-  border: 1px solid red;
-  margin-left: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
