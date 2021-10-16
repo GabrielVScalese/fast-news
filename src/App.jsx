@@ -16,7 +16,7 @@ const App = () => {
       `https://api.newscatcherapi.com/v2/search?q=${search}&page_size=10`,
       {
         headers: {
-          "x-api-key": "NhbQCLi7fsyn-MvErFRm3QMozDlD1ymVzfhUcG7c95Q",
+          "x-api-key": process.env.REACT_APP_API_KEY,
         },
       }
     );
