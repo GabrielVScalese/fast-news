@@ -25,7 +25,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetchPosts("Tesla");
+    fetchPosts("Github");
   }, []);
 
   const handlePostsSearchClick = (search) => {
