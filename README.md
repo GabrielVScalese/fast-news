@@ -12,4 +12,4 @@ Uma aplicação de exibicão de notícias, para colocar em prática conceitos de
 
 ## Funcionamento da aplicação
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/57220669/137600361-e7330f18-7f02-4db1-ad69-769912c4b7e8.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/57220669/137600487-898b8c69-3b96-4c53-950f-9a16de9df0cf.gif)
