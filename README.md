@@ -2,9 +2,7 @@
 
 Uma aplicação de exibicão de notícias, para colocar em prática conceitos de React.
 
-## Layout
-
-Antes da construção da aplicação, um design foi construído: https://www.figma.com/file/K1Zaayr3AXAU0qTnexK7Vz/news-posts
+Layout utilizado: https://www.figma.com/file/K1Zaayr3AXAU0qTnexK7Vz/news-posts
 
 ## Setup
 
