@@ -1,6 +1,7 @@
 # Fast-News
 
-Uma aplicação de exibicão de notícias, para colocar em prática conceitos de React
+Uma aplicação de exibicão de notícias, para colocar em prática conceitos de React.
+Design desenvolvido e utilizado: https://www.figma.com/file/K1Zaayr3AXAU0qTnexK7Vz/news-posts
 
 ## Setup
 
