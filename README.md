@@ -2,7 +2,7 @@
 
 Uma aplicação de exibição de notícias, para colocar em prática conceitos de React.
 
-Layout utilizado: https://www.figma.com/file/K1Zaayr3AXAU0qTnexK7Vz/news-posts
+Layout utilizado: https://www.figma.com/file/K1Zaayr3AXAU0qTnexK7Vz/fast-news?node-id=0%3A1
 
 ## Setup
 
