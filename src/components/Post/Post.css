@@ -28,12 +28,17 @@
 .content-container a {
   color: white;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 .content-container h1 {
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+.content-container a:hover {
+  color: #94ee9d;
 }
 
 .content-container h2 {
@@ -46,6 +51,6 @@
 .content-container h3 {
   margin-top: 8px;
   color: #aea9a9;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
 }

@@ -22,7 +22,8 @@ const Post = ({ post }) => {
         <h2>{post["summary"]}</h2>
         <h3>
           {" "}
-          Written by {post["author"]} - {post["published_date"]}
+          Written by {post["author"] ? post["author"] : "nameless"} -{" "}
+          {post["published_date"]}
         </h3>
       </div>
     </div>
