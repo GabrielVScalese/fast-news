@@ -1,16 +1,23 @@
 import React from "react";
-import Header from "./components/Header/Header";
 
 import "./App.css";
+import Line from "./components/Line/Line";
+import Header from "./components/Header/Header";
+import SearchInput from "./components/SearchInput/SearchInput";
 
 const App = () => {
   return (
     <>
-      <div className="header-container">
+      <div className="title-box">
         <Header />
+        <div className="line-container">
+          <Line />
+        </div>
       </div>
-      <div className="newsPostsBox">
-        <h1>a</h1>
+      <div className="news-posts-box">
+        <div className="search-post-container">
+          <SearchInput />
+        </div>
       </div>
     </>
   );
