@@ -28,7 +28,7 @@ const App = () => {
     fetchPosts("Tesla");
   }, []);
 
-  const handlePostsClick = (search) => {
+  const handlePostsSearchClick = (search) => {
     if (search === "") window.alert("Type a keyword!");
     fetchPosts(search);
   };
@@ -43,7 +43,7 @@ const App = () => {
       </div>
       <div className="news-posts-box">
         <div className="search-post-container">
-          <SearchPost handlePostsClick={handlePostsClick} />
+          <SearchPost handlePostsSearchClick={handlePostsSearchClick} />
         </div>
 
         <div className="posts-container">

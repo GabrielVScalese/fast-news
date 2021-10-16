@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 import "./SearchPost.css";
 
-const SearchPost = ({ handlePostsClick }) => {
+const SearchPost = ({ handlePostsSearchClick }) => {
   const [inputData, setInputData] = useState();
 
   const handleKeyDown = (e) => {
@@ -15,7 +15,7 @@ const SearchPost = ({ handlePostsClick }) => {
   };
 
   const handleSearchPost = () => {
-    handlePostsClick(inputData);
+    handlePostsSearchClick(inputData);
   };
 
   return (
